@@ -1,0 +1,44 @@
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.About .right {
+  margin: 12em 0;
+}
+
+.About h2 {
+  text-align: center;
+}
+
+.About img {
+  max-width: 20em;
+}
+
+.About .center {
+  max-width: 30%;
+}
+
+.About .left {
+  max-width: 20%;
+}
+
+@media (max-width: 700px) {
+  .About {
+    flex-direction: column;
+  }
+  .About .center {
+    order: 2;
+    max-width: 80%;
+  }
+  .About .right {
+    margin: 3em 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .About .left {
+    display: none;
+  }
+}

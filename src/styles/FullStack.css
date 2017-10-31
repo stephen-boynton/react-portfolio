@@ -1,0 +1,20 @@
+.FullStack {
+  flex-basis: 35%;
+  border: 0.5px solid gray;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1em 1em 0;
+  transition: box-shadow 1s;
+}
+
+.FullStack:hover {
+  box-shadow: 3px 3px 5px #8b630e;
+  cursor: pointer;
+}
+
+.FullStack img {
+  max-width: 100px;
+}

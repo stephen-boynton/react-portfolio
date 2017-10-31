@@ -1,0 +1,24 @@
+.Header {
+  background-image: url("/img/scb.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Header .hero {
+  padding: 15em 2em;
+}
+
+@media (max-width: 700px) {
+  .Header {
+    background-image: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .Header {
+    background-size: 1300px;
+    background-position-x: right;
+    background-position-y: center;
+  }
+}

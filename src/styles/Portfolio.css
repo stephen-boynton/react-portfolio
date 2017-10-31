@@ -1,0 +1,21 @@
+.Portfolio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Portfolio .left {
+  min-width: 30%;
+  margin-left: 3em;
+}
+
+.Portfolio .proj-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+@media (max-width: 700px) {
+  .Portfolio .proj-row {
+    flex-direction: column;
+  }
+}
